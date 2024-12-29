@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tareq/Applications/asp-learn/Learn.csproj": {}
+  },
+  "projects": {
+    "/home/tareq/Applications/asp-learn/Learn.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tareq/Applications/asp-learn/Learn.csproj",
+        "projectName": "Learn",
+        "projectPath": "/home/tareq/Applications/asp-learn/Learn.csproj",
+        "packagesPath": "/home/tareq/.nuget/packages/",
+        "outputPath": "/home/tareq/Applications/asp-learn/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tareq/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
